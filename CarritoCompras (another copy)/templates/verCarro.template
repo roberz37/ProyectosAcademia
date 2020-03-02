@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<html><head><title>{{head}}</title></head>
+<body><h1>{{titulo}}</h1><br>
+{{productos}}<br>
+<a href='./borrarProducto.php?id=$id'>Sacar del carrito</a><br><br>
+</body></html>

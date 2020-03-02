@@ -1,0 +1,5 @@
+<!DOCTYPE html><html>
+<head></head><body><strong>Usuario y/o Password incorrectos</strong><br><br>
+<a href='./index.php?page=home'>Volver</a>
+</body>
+</html>

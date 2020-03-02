@@ -1,0 +1,13 @@
+{
+    "name": "academia/carritoslim",
+    "autoload": {
+        "psr-4": {
+            "Templates\\":"templates/",
+            "Library\\":"lib/"
+        }
+    },
+    "require": {
+        "slim/slim": "^4.4",
+        "slim/psr7": "^1.0"
+    }
+}

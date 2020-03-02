@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html><head><title>{{head}}</title></head>
+<body><h1>{{titulo}}</h1>
+<a href='./index.php?page=vercarrito'>Ir al carrito</a><br><br>
+{{productos}}<br>
+<a href='./index.php?page=logout'>Cerrar Cesion</a>
+</body></html>

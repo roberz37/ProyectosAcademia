@@ -1,0 +1,11 @@
+<!DOCTYPE html><html><head><title>{{head}}</title></head><body>
+    <h1>{{titulo}}</h1>
+    <p>{{subtitulo}}</p>
+<form action="./index.php?page=home" method="POST">
+    Usuario: <input type="text" name='usuario'><br>
+    Clave: <input type="password" name='clave'><br><br>
+    <input type="submit" value="Entrar">
+</form>
+<br><a href='./index.php?page=registrar'>Registrarse</a>
+</body>
+</html>

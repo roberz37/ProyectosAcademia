@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html><head><title>{{head}}</title></head>
+<body><h1>{{titulo}}</h1><br>
+{{productos}}<br><br>
+<strong>Total: ${{total}}</strong><br>
+<br><a href='/listaproductos'>Seguir Comprando</a>
+</body></html>

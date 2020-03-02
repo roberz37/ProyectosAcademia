@@ -1,0 +1,2 @@
+<strong>Producto: {{nombre}}- Precio: ${{precio}}</strong><br>
+<a href=' ./index.php?page=agregarcarrito&id={{id}}'> Agregar al Carrito</a><br><br>

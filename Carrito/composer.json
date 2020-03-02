@@ -1,0 +1,12 @@
+{
+    "name": "academia/carrito",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Carrito\\":"src/",
+            "Library\\":"lib/",
+            "Interface\\":"lib/interface"
+        }
+    },
+    "require": {}
+}

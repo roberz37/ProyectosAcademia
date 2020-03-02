@@ -1,0 +1,2 @@
+<strong>Producto: {{nombre}} - Precio: ${{precio}}</strong><br>
+<a href='/sacarcarrito/{{id}}/'>Sacar del carrito</a><br><br>
