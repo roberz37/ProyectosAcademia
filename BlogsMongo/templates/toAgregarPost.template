@@ -1,0 +1,9 @@
+<!DOCTYPE html><html><head><title>{{head}}</title></head><body>
+    <h1>{{titulo}}</h1>
+    <p>{{subtitulo}}</p>
+<form action="./postAgregado" method="POST">
+    Nuevo Posteo: <input type="text" name='newPost'><br>
+    <input type="submit" value="agregar">
+</form>
+</body>
+</html>

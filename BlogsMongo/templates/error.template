@@ -1,0 +1,6 @@
+<!DOCTYPE html><html>
+<head></head><body><strong>Usuario inexistente</strong><br><br>
+<a href='./'>Volver</a><br><br>
+<a href='./listausuarios'>Recorrer sin loguearse</a>
+</body>
+</html>

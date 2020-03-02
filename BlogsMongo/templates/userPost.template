@@ -1,0 +1,6 @@
+<!DOCTYPE html><html><head><title>{{head}}</title></head><body>
+    <h1>{{titulo}}</h1>
+    <p>{{post}}</p>
+    <a href="/agregarPost">Agregar Post</a>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<!DOCTYPE html><html><head><title>{{head}}</title></head><body>
+<h1>{{titulo}}</h1>
+<form action= "./registro" method="POST">
+Nuevo Usuario: <input type="text" name='usuario'><br>
+<input type="submit" value="Registrar">
+</form>
+</body>
+</html>
