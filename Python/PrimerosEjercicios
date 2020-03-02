@@ -1,0 +1,156 @@
+Primer Parte.
+
+def devolver_numero_5():
+    numero=5        
+    return numero
+print(devolver_numero_5())
+
+def devolver_una_lista():
+    lista = [5,6,7,8,9,10]
+    return lista
+lista = devolver_una_lista()
+print (lista)
+
+def devolver_misma_lista(una_lista):
+    return una_lista
+print(devolver_misma_lista(lista))    
+
+def devolver_nombre(nombre):
+    return nombre
+print (devolver_nombre("Roberto"))
+
+def devolver_la_suma(numero1, numero2):
+    suma = numero1+numero2
+    return suma
+print (devolver_la_suma(5,6))
+
+def devuelve_multiplicacion(numero1, numero2):
+    respuesta = numero1*numero2
+    return respuesta
+print(devuelve_multiplicacion(5,6))
+
+
+Segunda Parte.
+
+def decir_si_es_mas_grande_que_5():
+    numero = 6
+    return numero > 5
+print (decir_si_es_mas_grande_que_5())
+
+def decir_si_la_longitud_es_mayor_a_5():
+    unNombre = "Camel Black"
+    return len(unNombre) > 5
+print (decir_si_la_longitud_es_mayor_a_5())
+
+def decir_si_es_mas_grande_que(unNumero) :
+    probando = 10
+    return unNumero > probando    
+print (decir_si_es_mas_grande_que(10))
+
+def decir_si_es_igual_a(unNumero):
+    numero = 10
+    return numero == unNumero
+    
+print (decir_si_es_igual_a(10))
+
+def decir_si_la_longitud_es_igual_a(unNombre, unNumero):
+    return len(unNombre)==len(unNumero)
+    
+print (decir_si_la_longitud_es_igual_a("rober", 5))
+
+
+def devolver_valor_mas_grande(valor1 ,valor2):
+    if valor1 > valor2:
+        resultado = valor1
+    else:
+        resultado = valro2
+    return resultado
+print (devolver_valor_mas_grande())
+
+def devolver_el_doble_si_es_par(unNumero):
+    if es_par (unNumero) :
+        resultado = unNumero*2
+    else:
+        resultado = unNumero
+    return resultado
+print (devolver_el_doble_si_es_par())
+
+def devolver_segun_condiciones_locas(unNumero):
+    if (unNumero == 2):
+         resultado = unNumero+1
+    elif ( unNumero <= 10) :
+        resultado = unNumero*2
+    elif unNumero >= 20 and unNumero <=34:
+        resultado = unNumero + 5
+    else:
+        resultado = 0
+    return resultado
+print(devolver_segun_condiciones_locas(25))
+
+
+1. Definir una función que recibe un número y devuelve el doble si es más grande que 10 y menor a 20
+2. Definir una función que recibe un número y devuelve “Rayos y Centellas” si es más grande que 20
+o menor a 5
+3. Definir una función que recibe un número y devuelve “Está en el rango deseado” si el valor está
+entre 5 y 10 y “Fuera de Rango” en caso contrario
+4. Definir una función que recibe un número y devuelve “Menor a 5” si el valor es menor a 5, “Entre
+10 y 20” si el valor está entre 10 y 20, y en cualquier otro caso que devuelva “Número muy grande”
+
+
+def devuelve_el_doble(unNumero)
+    if unNumero > 10 and unNumero < 20:
+	retorno = unNumero*2
+    return retorno
+
+def rayos_y_centellas(unNumero)
+    if unNumero > 20 or unNumero < 5:
+	retorno = "Rayos y Centellas"
+    return retorno
+
+def esta_en_rango(unNumero)
+    if unNumero < 10 and unNumero > 5:
+        retorno = "Esta en el rango deseado"
+    else
+        retorno = "Esta fuera de rango"
+    return retorno
+
+def pertenece_a_un_grupo(unNumero)
+    if unNumero < 5:
+        retorno = "Menor a 5"
+    elif unNumero > 10 and unNumero < 20:
+        retorno = "Entre 10 y 20"
+    else
+        retorno = "Numero muy grande"
+    return retorno
+
+
+
+Tercer Parte.
+
+nombre = "Roberto"
+def devolver_longitud_de_un_nombre(unNombre):
+    return len(unNombre)
+print (devolver_longitud_de_un_nombre(nombre))
+
+lista = [5,10,15]
+def devolver_primer_elemento_de_la_lista(unaLista):
+    return unaLista[0]
+print (devolver_primer_elemento_de_la_lista(lista))
+
+def devolver_segundo_elemento_del_nombre (unNombre):
+    return unNombre[1]
+print(devolver_segundo_elemento_del_nombre(nombre))
+
+def devolver_ultimo_elemento_del_nombre(unNombre):
+    return unNombre[len(unNombre)-1]
+print (devolver_ultimo_elemento_del_nombre(nombre))
+
+def devolver_la_letra_en_posicion_del_nombre(unNombre, posicion):
+    return unNombre[posicion]
+print (devolver_la_letra_en_posicion_del_nombre(nombre, 4))
+
+def reemplazar_ultimo_elemento_de_la_lista(unaLista, unElemento):
+    unaLista[len(unaLista)-1] = unElemento
+reemplazar_ultimo_elemento_de_la_lista(lista, 45)
+print (lista)
+

@@ -1,0 +1,10 @@
+<!DOCTYPE html><html><head><title>{{head}}</title></head><body>
+    <h1>{{titulo}}</h1>
+    <p>{{subtitulo}}</p>
+<form action="./resize" method="POST">
+    URL: <input type="text" name='url'><br>
+    <input type="submit" value="Entrar">
+</form><br><br>
+{{links}}
+</body>
+</html>

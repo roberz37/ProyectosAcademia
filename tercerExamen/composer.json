@@ -1,0 +1,7 @@
+{
+    "name": "academia/examen",
+    "require": {
+        "phpunit/phpunit": "^8.5",
+        "mongodb/mongodb": "^1.6"
+    }
+}

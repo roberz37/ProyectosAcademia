@@ -1,0 +1,33 @@
+<!DOCTYPE html><html><head><title>{{head}}</title></head><body>
+    <h1>{{palabra}}</h1>
+    <p>
+<a href="/jugar/a">A</a>
+<a href="/jugar/b">B</a>
+<a href="/jugar/c">C</a>
+<a href="/jugar/d">D</a>
+<a href="/jugar/e">E</a>
+<a href="/jugar/f">F</a>
+<a href="/jugar/g">G</a>
+<a href="/jugar/h">H</a>
+<a href="/jugar/i">I</a>
+<a href="/jugar/j">J</a>
+<a href="/jugar/k">K</a>
+<a href="/jugar/l">L</a>
+<a href="/jugar/m">M</a>
+<a href="/jugar/n">N</a>
+<a href="/jugar/o">O</a>
+<a href="/jugar/p">P</a>
+<a href="/jugar/q">Q</a>
+<a href="/jugar/r">R</a>
+<a href="/jugar/s">S</a>
+<a href="/jugar/t">T</a>
+<a href="/jugar/u">U</a>
+<a href="/jugar/v">V</a>
+<a href="/jugar/w">W</a>
+<a href="/jugar/x">X</a>
+<a href="/jugar/y">Y</a>
+<a href="/jugar/z">Z</a>
+</p>
+</form>
+</body>
+</html>

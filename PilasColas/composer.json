@@ -1,0 +1,6 @@
+{
+    "name": "academia/pilascolas",
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    }
+}

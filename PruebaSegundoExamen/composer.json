@@ -1,0 +1,8 @@
+{
+    "name": "zaccarellors/prueba-segundo-examen",
+    "require": {
+        "phpunit/phpunit": "^8.5",
+        "slim/slim": "^4.4",
+        "slim/psr7": "^1.0"
+    }
+}
