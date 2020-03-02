@@ -1,0 +1,6 @@
+{
+    "name": "academia/mongo",
+    "require": {
+        "mongodb/mongodb": "^1.5"
+    }
+}
