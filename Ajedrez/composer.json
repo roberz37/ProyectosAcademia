@@ -1,0 +1,17 @@
+{
+    "name": "academia/ajedrez",  
+    
+    "autoload": {
+        "psr-4":{
+            "Ajedrez\\":"src/",
+            "TestAjedrez\\":"tests/",
+            "Interfaces\\":"interfaces/",
+            "Library\\":"lib/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^8.5",
+        "slim/slim": "*",
+        "slim/psr7": "*"
+    }
+}
